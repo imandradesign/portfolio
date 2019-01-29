@@ -1,0 +1,34 @@
+/*Center image and reduce size*/
+img#me {
+  max-width:370px;
+  margin-top:20px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:50%;
+}
+
+/*Adjust Heading 1 text styles*/
+h1 {
+  text-align:center;
+}
+
+/*Add styles to separate columns of text on the page body*/
+.column-body {
+  float:none
+  align:center;;
+  max-width:50%;
+  text-align:left;
+}
+
+img#snake {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:60%;
+}
+
+/*Center Heading 2 text*/
+h2 {
+  text-align:center;
+}
