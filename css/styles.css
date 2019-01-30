@@ -58,6 +58,11 @@ h1 {
   color:#CF5A41;
 }
 
+/*Add underline to column headings*/
+.heading {
+  text-decoration:underline;
+}
+
 /*Change Heading 3 font size*/
 h3 a {
   font-size:17px;
@@ -76,6 +81,11 @@ ol {
   margin-bottom:20px;
   margin-left:30px;
   margin-right:30px;
+}
+
+/*Add padding to the Bootstrap-styled buttons*/
+.btn.btn-default {
+  padding:4px;
 }
 
 /*Change body text color*/
