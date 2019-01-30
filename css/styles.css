@@ -1,22 +1,19 @@
 /*Center climbing image and reduce size*/
 img#me {
-  max-width:370px;
-  margin-top:20px;
+  max-width:320px;
+  padding-top:80px;
   display:block;
   margin-left:auto;
   margin-right:auto;
-  width:50%;
 }
 
 /*Center mountain image and reduce size*/
 img#mountain {
-  max-width:370px;
-  margin-top:20px;
+  max-width:300px;
   display:block;
   margin-left:auto;
   margin-right:auto;
-  padding-top:100px;
-  width:50%;
+  padding-top:80px;
 }
 
 /*Center LinkedIn image and reduce size*/
@@ -26,7 +23,6 @@ img#linkedin {
   display:block;
   margin-left:auto;
   margin-right:auto;
-  width:10%;
 }
 
 /*Add styles to separate columns of text on the page body*/
@@ -39,9 +35,10 @@ img#linkedin {
   margin-left:auto;
   margin-right:auto;
   padding:20px;
+  padding-bottom:50px;
 }
 
-/*Center images and reduce their display size*/
+/*Center column images and reduce their display size*/
 img {
   display:block;
   margin-left:auto;
@@ -58,7 +55,7 @@ h2, h3 {
 /*Center Heading 1 text and change color*/
 h1 {
   text-align:center;
-  color:#C70039;
+  color:#CF5A41;
 }
 
 /*Change Heading 3 font size*/
@@ -78,5 +75,22 @@ a {
 
 /*Change site background color*/
 body {
-  background-color:#E5F9C0;
+  background-color:#F6FCEB;
 }
+
+/*Fix header with background color*/
+header {
+  position: fixed;
+  left:0;
+  bottom:100;
+  width:100%;
+  background-color:#F6FCEB;
+}
+
+/*
+footer {
+  position:static;
+  bottom:0;
+  text-align:center;
+}
+*/
