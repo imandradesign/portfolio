@@ -1,7 +1,7 @@
 /*Center climbing image and reduce size*/
 img#me {
   max-width:320px;
-  padding-top:80px;
+  padding-top:150px;
   display:block;
   margin-left:auto;
   margin-right:auto;
@@ -25,6 +25,14 @@ img#linkedin {
   margin-right:auto;
 }
 
+/*Center column images and reduce their display size*/
+img.column-image {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:60%;
+}
+
 /*Add styles to separate columns of text on the page body*/
 .column {
   display:block;
@@ -38,16 +46,8 @@ img#linkedin {
   padding-bottom:50px;
 }
 
-/*Center column images and reduce their display size*/
-img {
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-  width:60%;
-}
-
 /*Center Heading 2 and 3 text and change color*/
-h2, h3 {
+h2, h3, h4 {
   text-align:center;
   color:#FFC300;
 }
@@ -63,6 +63,21 @@ h3 a {
   font-size:17px;
 }
 
+/*Change styles for numbered list*/
+ol {
+  font-style:italic;
+  padding-left: 45%;
+}
+
+/*Add border around "Languages I've studied"*/
+.languages {
+  border: 2px dotted;
+  border-color:#CD5C5C;
+  margin-bottom:20px;
+  margin-left:30px;
+  margin-right:30px;
+}
+
 /*Change body text color*/
 p {
   color:#606060;
@@ -75,22 +90,31 @@ a {
 
 /*Change site background color*/
 body {
-  background-color:#F6FCEB;
+  background-color:#FFF4CF;
 }
 
 /*Fix header with background color*/
 header {
   position: fixed;
+  padding-top:25px;
+  padding-bottom:25px;
   left:0;
   bottom:100;
   width:100%;
-  background-color:#F6FCEB;
+  background-color:#FFF9E4;
 }
 
-/*
+/* trying to fix footer display */
 footer {
-  position:static;
-  bottom:0;
   text-align:center;
+  width:100%;
+  left:0;
+  bottom:0;
+  padding-top:50px;
 }
-*/
+
+/*Turn "LinkedIn" text blue*/
+#blue {
+  color:#0077B5;
+  font-style:italic;
+}
