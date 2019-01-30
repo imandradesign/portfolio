@@ -1,4 +1,4 @@
-/*Center image and reduce size*/
+/*Center climbing image and reduce size*/
 img#me {
   max-width:370px;
   margin-top:20px;
@@ -8,27 +8,75 @@ img#me {
   width:50%;
 }
 
-/*Adjust Heading 1 text styles*/
-h1 {
-  text-align:center;
+/*Center mountain image and reduce size*/
+img#mountain {
+  max-width:370px;
+  margin-top:20px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:100px;
+  width:50%;
+}
+
+/*Center LinkedIn image and reduce size*/
+img#linkedin {
+  max-width:40px;
+  margin-top:10px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  width:10%;
 }
 
 /*Add styles to separate columns of text on the page body*/
-.column-body {
-  float:none
-  align:center;;
-  max-width:50%;
+.column {
+  display:block;
+  float:left;
+  align:center;
+  max-width:30%;
   text-align:left;
+  margin-left:auto;
+  margin-right:auto;
+  padding:20px;
 }
 
-img#snake {
+/*Center images and reduce their display size*/
+img {
   display:block;
   margin-left:auto;
   margin-right:auto;
   width:60%;
 }
 
-/*Center Heading 2 text*/
-h2 {
+/*Center Heading 2 and 3 text and change color*/
+h2, h3 {
   text-align:center;
+  color:#FFC300;
+}
+
+/*Center Heading 1 text and change color*/
+h1 {
+  text-align:center;
+  color:#C70039;
+}
+
+/*Change Heading 3 font size*/
+h3 a {
+  font-size:17px;
+}
+
+/*Change body text color*/
+p {
+  color:#606060;
+}
+
+/*Adjust text link color*/
+a {
+  color:#CD5C5C;
+}
+
+/*Change site background color*/
+body {
+  background-color:#E5F9C0;
 }
