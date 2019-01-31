@@ -33,23 +33,43 @@ img.column-image {
   width:60%;
 }
 
-/*Add styles to separate columns of text on the page body*/
-.column {
+/*Adjust size and positioning of KQ berry image*/
+img#berries {
+  max-width:140px;
+  padding-top:270px;
   display:block;
-  float:left;
-  align:center;
-  max-width:30%;
-  text-align:left;
   margin-left:auto;
   margin-right:auto;
-  padding:20px;
-  padding-bottom:50px;
+}
+
+/*Hide berry image on iPads and phones*/
+@media screen and (max-width: 1000px) {
+  img#berries {
+    display:none;
+  }
+}
+
+/*Adjust size and positioning of KQ worker image*/
+img#skulls {
+  max-width:120px;
+  padding-top:250px;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/*Hide worker image on iPads and phones*/
+@media screen and (max-width: 1000px) {
+  img#skulls {
+    display:none;
+  }
 }
 
 /*Center Heading 2 and 3 text and change color*/
 h2, h3, h4 {
   text-align:center;
   color:#FFC300;
+  font-family:Palatino, serif;
 }
 
 /*Center Heading 1 text and change color*/
@@ -83,9 +103,10 @@ ol {
   margin-right:30px;
 }
 
-/*Add padding to the Bootstrap-styled buttons*/
+/*Add padding and color to the Bootstrap-styled buttons*/
 .btn.btn-default {
   padding:4px;
+  color:#CD5C5C;
 }
 
 /*Change body text color*/
@@ -109,9 +130,9 @@ header {
   padding-top:25px;
   padding-bottom:25px;
   left:0;
-  bottom:100;
   width:100%;
   background-color:#FFF9E4;
+  z-index:2;
 }
 
 /* trying to fix footer display */
