@@ -27,4 +27,4 @@ _There aren't any known issues or bugs with this page, but if you experience any
 
 Copyright (c) 2019 **_Imandra McKenzie_**
 <br>
-This software is licened under the MIT license.
+This software is licensed under the MIT license.
